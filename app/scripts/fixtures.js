@@ -33,7 +33,7 @@ var albumHHC = {
     artist: 'Horrible Horrible Creatures',
     label: 'none',
     year: '2008',
-    albumArtUrl: 'assets/images/album_covers/HHC cover.png',
+    albumArtUrl: '/bloc-jams-angular/app/assets/images/album_covers/HHC cover.png',
     songs: [
         {title: 'Every Second Counts', duration: 11, audioUrl: 'assets/music/bloc_jams_music/Every Second Counts'},
         {title: 'Before This Drive is Over', duration: 187, audioUrl: 'assets/music/bloc_jams_music/Before This Drive is Over'},
