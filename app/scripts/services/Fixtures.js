@@ -53,6 +53,16 @@ var albumHHC = {
 Fixtures.getAlbum = function() {
     return albumHHC;
 };
+        
+Fixtures.getCollection = function(numberOfAlbums) {
+    var albumArray = [];
+    
+    for (var i = 0; i < numberOfAlbums; i++) {
+        albumArray.push(albumHHC);
+    }
+    
+    return albumArray;
+};
 
         return Fixtures;
     }
