@@ -3,7 +3,7 @@
         var Fixtures = {};
         
         
-var albumPicasso = {
+        var albumPicasso = {
     title: 'The Colors',
     artist: 'Pablo Picasso',
     label: 'Cubism',
@@ -18,7 +18,7 @@ var albumPicasso = {
     ]
 };
 
-var albumMarconi = {
+        var albumMarconi = {
     title: 'The Telephone',
     artist: 'Guglielmo Marconi',
     label: 'EM',
@@ -33,36 +33,36 @@ var albumMarconi = {
     ]
 };
 
-var albumHHC = {
-    title: 'Summer on Fast Forward',
-    artist: 'Horrible Horrible Creatures',
-    label: 'none',
-    year: '2008',
-    albumArtUrl: '/bloc-jams-angular/app/assets/images/album_covers/HHC cover.png',
-    songs: [
-        {title: 'Every Second Counts', duration: 11, audioUrl: 'assets/music/bloc_jams_music/Every Second Counts'},
-        {title: 'Before This Drive is Over', duration: 187, audioUrl: 'assets/music/bloc_jams_music/Before This Drive is Over'},
-        {title: 'Spiders', duration: 242, audioUrl: 'assets/music/bloc_jams_music/Spiders'},
-        {title: 'My Turn to Win', duration: 267, audioUrl: 'assets/music/bloc_jams_music/My Turn to Win'},
-        {title: 'Hey Self', duration: 136, audioUrl: 'assets/music/bloc_jams_music/Hey Self'},
-        {title: 'Automatic Reset', duration: 215, audioUrl: 'assets/music/bloc_jams_music/Automatic Reset'},
-        {title: 'Lay Quiet Like its Night', duration: 172, audioUrl: 'assets/music/bloc_jams_music/Lay Quiet Like its Night'},
-        ]
-}
+        var albumHHC = {
+            title: 'Summer on Fast Forward',
+            artist: 'Horrible Horrible Creatures',
+            label: 'none',
+            year: '2008',
+            albumArtUrl: '/bloc-jams-angular/app/assets/images/album_covers/HHC cover.png',
+            songs: [
+                {title: 'Every Second Counts', duration: 11, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Every Second Counts'},
+                {title: 'Before This Drive is Over', duration: 187, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Before This Drive is Over'},
+                {title: 'Spiders', duration: 242, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Spiders'},
+                {title: 'My Turn to Win', duration: 267, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/My Turn to Win'},
+                {title: 'Hey Self', duration: 136, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Hey Self'},
+                {title: 'Automatic Reset', duration: 215, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Automatic Reset'},
+                {title: 'Lay Quiet Like its Night', duration: 172, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Lay Quiet Like its Night'},
+                ]
+        };
 
-Fixtures.getAlbum = function() {
-    return albumHHC;
-};
+        Fixtures.getAlbum = function() {
+            return albumHHC;
+        };
         
-Fixtures.getCollection = function(numberOfAlbums) {
-    var albumArray = [];
+        Fixtures.getCollection = function(numberOfAlbums) {
+            var albumArray = [];
     
-    for (var i = 0; i < numberOfAlbums; i++) {
-        albumArray.push(albumHHC);
-    }
+            for (var i = 0; i < numberOfAlbums; i++) {
+                albumArray.push(albumHHC);
+            }
     
-    return albumArray;
-};
+            return albumArray;
+        };
 
         return Fixtures;
     }
