@@ -45,6 +45,7 @@
                 });
             });
             
+            
             SongPlayer.currentSong = song;
         }
         
@@ -158,6 +159,15 @@
             if (currentBuzzObject) {
                 currentBuzzObject.setTime(time);
             }
+        };
+        
+        SongPlayer.volume = 80;
+        
+        SongPlayer.setVolume = function(value) {
+            if(currentBuzzObject) {
+                currentBuzzObject.setVolume(value);
+            };
+            
         };
         
         
