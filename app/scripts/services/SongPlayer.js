@@ -45,6 +45,13 @@
                 });
             });
             
+            currentBuzzObject.bind('ended', function() {
+
+                if (currentBuzzObject.isEnded()) {
+                    SongPlayer.next();
+                };
+            });
+            
             
             SongPlayer.currentSong = song;
         }
@@ -100,7 +107,8 @@
                 if(currentBuzzObject.isPaused()) {
                     playSong(song);
                 }
-            }
+            };
+            
         };
         
         /**

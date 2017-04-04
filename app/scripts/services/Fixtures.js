@@ -23,7 +23,7 @@
     artist: 'Guglielmo Marconi',
     label: 'EM',
     year: '1909',
-    albumArtUrl: '/bloc-jams-angular/app/assets/images/album_covers/20.png',
+    albumArtUrl: '/app/assets/images/album_covers/20.png',
     songs: [
         {title: 'Hello, Operator?', duration: '1:01'},
         {title: 'Ring, ring, ring', duration: '5:01'},
@@ -38,15 +38,15 @@
             artist: 'Horrible Horrible Creatures',
             label: 'none',
             year: '2008',
-            albumArtUrl: '/bloc-jams-angular/app/assets/images/album_covers/HHC cover.png',
+            albumArtUrl: '/app/assets/images/album_covers/HHC cover.png',
             songs: [
-                {title: 'Every Second Counts', duration: 11, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Every Second Counts'},
-                {title: 'Before This Drive is Over', duration: 187, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Before This Drive is Over'},
-                {title: 'Spiders', duration: 242, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Spiders'},
-                {title: 'My Turn to Win', duration: 267, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/My Turn to Win'},
-                {title: 'Hey Self', duration: 136, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Hey Self'},
-                {title: 'Automatic Reset', duration: 215, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Automatic Reset'},
-                {title: 'Lay Quiet Like its Night', duration: 172, audioUrl: '/bloc-jams-angular/app/assets/music/bloc_jams_music/Lay Quiet Like its Night'},
+                {title: 'Every Second Counts', duration: 11, audioUrl: '/app/assets/music/bloc_jams_music/Every Second Counts'},
+                {title: 'Before This Drive is Over', duration: 187, audioUrl: 'app/assets/music/bloc_jams_music/Before This Drive is Over'},
+                {title: 'Spiders', duration: 242, audioUrl: '/app/assets/music/bloc_jams_music/Spiders'},
+                {title: 'My Turn to Win', duration: 267, audioUrl: '/app/assets/music/bloc_jams_music/My Turn to Win'},
+                {title: 'Hey Self', duration: 136, audioUrl: '/app/assets/music/bloc_jams_music/Hey Self'},
+                {title: 'Automatic Reset', duration: 215, audioUrl: '/app/assets/music/bloc_jams_music/Automatic Reset'},
+                {title: 'Lay Quiet Like its Night', duration: 172, audioUrl: '/app/assets/music/bloc_jams_music/Lay Quiet Like its Night'},
                 ]
         };
 

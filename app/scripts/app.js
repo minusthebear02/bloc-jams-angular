@@ -10,19 +10,19 @@
             .state('landing', {
                 url: '/',
                 controller: 'LandingCtrl as landing',
-                templateUrl: '/bloc-jams-angular/app/templates/landing.html'
+                templateUrl: '/app/templates/landing.html'
             })
         
             .state('album', {
                 url: '/album',
                 controller: 'AlbumCtrl as album',
-                templateUrl: '/bloc-jams-angular/app/templates/album.html'
+                templateUrl: '/app/templates/album.html'
             })
         
             .state('collection', {
                 url: '/collection',
                 controller: 'CollectionCtrl as collection',
-                templateUrl:'/bloc-jams-angular/app/templates/collection.html'
+                templateUrl:'/app/templates/collection.html'
             })
     }
 
