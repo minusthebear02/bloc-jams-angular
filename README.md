@@ -1,8 +1,6 @@
-# SiteStash
+# BoomBocs
 
 Welcome to BoomBocs. An AngularJS application inspired by Spotify where users can listen to underground music they may not have heard elsewhere. Full music playback capability built into this Single Page Application (SPA). Users can listen to any artist, album or song for free without limits on song skipping.
-
-![BoomBocs](assets/images/boombocsdemo.mp4 "BoomBocs")
 
 [Live Demo](http://froehlich-bloc-jams.netlify.com/ "BoomBocs")
 
